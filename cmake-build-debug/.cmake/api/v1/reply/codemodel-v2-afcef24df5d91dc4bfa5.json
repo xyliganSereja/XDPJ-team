@@ -1,0 +1,352 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				},
+				{
+					"build" : "libs",
+					"childIndexes" : 
+					[
+						2,
+						5,
+						6,
+						7
+					],
+					"jsonFile" : "directory-libs-Debug-ec580da4e47c3b0e73da.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "libs"
+				},
+				{
+					"build" : "libs/3rdparty",
+					"childIndexes" : 
+					[
+						3
+					],
+					"jsonFile" : "directory-libs.3rdparty-Debug-a751308166b1ad773600.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "libs/3rdparty"
+				},
+				{
+					"build" : "libs/3rdparty/libgtest",
+					"childIndexes" : 
+					[
+						4
+					],
+					"jsonFile" : "directory-libs.3rdparty.libgtest-Debug-60ecffd0d56ac24f23aa.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.8"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "libs/3rdparty/libgtest"
+				},
+				{
+					"build" : "libs/3rdparty/libgtest/googletest",
+					"jsonFile" : "directory-libs.3rdparty.libgtest.googletest-Debug-105a523eb139f84fcc6c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.6.4"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 3,
+					"source" : "libs/3rdparty/libgtest/googletest",
+					"targetIndexes" : 
+					[
+						1,
+						2
+					]
+				},
+				{
+					"build" : "libs/clew",
+					"jsonFile" : "directory-libs.clew-Debug-a36b0178804cba0cca3b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 4,
+					"source" : "libs/clew",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "libs/gpu",
+					"jsonFile" : "directory-libs.gpu-Debug-9a53fde380696e1c2f5d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 5,
+					"source" : "libs/gpu",
+					"targetIndexes" : 
+					[
+						3,
+						5
+					]
+				},
+				{
+					"build" : "libs/utils",
+					"jsonFile" : "directory-libs.utils-Debug-b2dfd4dfbfe24931c440.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 6,
+					"source" : "libs/utils",
+					"targetIndexes" : 
+					[
+						6
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Photogrammetry",
+					"targetIndexes" : 
+					[
+						0,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2,
+						4,
+						5,
+						6
+					],
+					"directoryIndexes" : 
+					[
+						1,
+						2
+					],
+					"name" : "",
+					"parentIndex" : 0
+				},
+				{
+					"childIndexes" : 
+					[
+						3
+					],
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "googletest-distribution",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "gtest",
+					"parentIndex" : 2,
+					"targetIndexes" : 
+					[
+						1,
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "libclew",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "libgpu",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						3,
+						5
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						7
+					],
+					"name" : "libutils",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Photogrammetry::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Photogrammetry-Debug-f040228e657a69e70779.json",
+					"name" : "Photogrammetry",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "gtest::@c40582813f6c67ae9a0f",
+					"jsonFile" : "target-gtest-Debug-6cef01f94f7d185274d2.json",
+					"name" : "gtest",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "gtest_main::@c40582813f6c67ae9a0f",
+					"jsonFile" : "target-gtest_main-Debug-cdd1faeadf1697b330f5.json",
+					"name" : "gtest_main",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "hexdumparray::@90375ef4966b2202aea0",
+					"jsonFile" : "target-hexdumparray-Debug-af4975cb4f5860481acf.json",
+					"name" : "hexdumparray",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "libclew::@9cb7e33744a6ab8991c7",
+					"jsonFile" : "target-libclew-Debug-cb2acd6631ed40e69897.json",
+					"name" : "libclew",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "libgpu::@90375ef4966b2202aea0",
+					"jsonFile" : "target-libgpu-Debug-588e1374ab01f90549b8.json",
+					"name" : "libgpu",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "libutils::@e42e11acb977bccfc0e7",
+					"jsonFile" : "target-libutils-Debug-10ac8d1af837b795efd2.json",
+					"name" : "libutils",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_ceres_solver::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_ceres_solver-Debug-c34fe1fe4196e6ff2bb7.json",
+					"name" : "test_ceres_solver",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_depth_maps_pm::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_depth_maps_pm-Debug-c664b6b56ecedebc745f.json",
+					"name" : "test_depth_maps_pm",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_matching::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_matching-Debug-615769ff3e92e67c2682.json",
+					"name" : "test_matching",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_sfm::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_sfm-Debug-ab9f078865d1ea403a23.json",
+					"name" : "test_sfm",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_sfm_ba::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_sfm_ba-Debug-8b93d64c54d337845a94.json",
+					"name" : "test_sfm_ba",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_sift::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_sift-Debug-fac3e51bdc511b1844aa.json",
+					"name" : "test_sift",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/xyligansereja/XDPJ-team/cmake-build-debug",
+		"source" : "/home/xyligansereja/XDPJ-team"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

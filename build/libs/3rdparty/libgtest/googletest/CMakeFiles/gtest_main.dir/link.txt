@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -Wl,--dependency-file=CMakeFiles/gtest_main.dir/link.d -shared -Wl,-soname,libgtest_main.so -o ../../../../lib/libgtest_main.so CMakeFiles/gtest_main.dir/src/gtest_main.cc.o  -Wl,-rpath,/home/xyligansereja/fotogrammetry_itmo/xyliganSerejaSolution/build/lib ../../../../lib/libgtest.so

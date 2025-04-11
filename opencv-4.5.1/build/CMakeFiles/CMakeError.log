@@ -1,0 +1,375 @@
+Build output check failed:
+    Regex: 'argument .* is not valid'
+    Output line: 'cc1: warning: ‘-Werror=’ argument ‘-Werror=non-virtual-dtor’ is not valid for C'
+Compilation failed:
+    source file: '/home/xyligansereja/fotogrammetry_itmo/PhotogrammetryTasks2025/opencv-4.5.1/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type  -Werror=non-virtual-dtor'
+===== BUILD LOG =====
+Change Dir: '/home/xyligansereja/fotogrammetry_itmo/PhotogrammetryTasks2025/opencv-4.5.1/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_eba70/fast
+/usr/bin/make  -f CMakeFiles/cmTC_eba70.dir/build.make CMakeFiles/cmTC_eba70.dir/build
+make[1]: Entering directory '/home/xyligansereja/fotogrammetry_itmo/PhotogrammetryTasks2025/opencv-4.5.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_eba70.dir/src.c.o
+/usr/bin/cc   -O2 -g -DNDEBUG -fPIE    -fsigned-char -W -Wall -Werror=return-type  -Werror=non-virtual-dtor -o CMakeFiles/cmTC_eba70.dir/src.c.o -c /home/xyligansereja/fotogrammetry_itmo/PhotogrammetryTasks2025/opencv-4.5.1/build/CMakeFiles/CMakeTmp/src.c
+cc1: warning: ‘-Werror=’ argument ‘-Werror=non-virtual-dtor’ is not valid for C
+/home/xyligansereja/fotogrammetry_itmo/PhotogrammetryTasks2025/opencv-4.5.1/build/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring ‘#pragma  ’ [-Wunknown-pragmas]
+    1 | #pragma
+Linking C executable cmTC_eba70
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eba70.dir/link.txt --verbose=1
+/usr/bin/cc -O2 -g -DNDEBUG CMakeFiles/cmTC_eba70.dir/src.c.o -o cmTC_eba70
+make[1]: Leaving directory '/home/xyligansereja/fotogrammetry_itmo/PhotogrammetryTasks2025/opencv-4.5.1/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C\+\+'
+    Output line: 'cc1plus: warning: command-line option ‘-Wmissing-prototypes’ is valid for C/ObjC but not for C++'
+Compilation failed:
+    source file: '/home/xyligansereja/fotogrammetry_itmo/PhotogrammetryTasks2025/opencv-4.5.1/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations  -Wmissing-prototypes'
+===== BUILD LOG =====
+Change Dir: '/home/xyligansereja/fotogrammetry_itmo/PhotogrammetryTasks2025/opencv-4.5.1/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_22422/fast
+/usr/bin/make  -f CMakeFiles/cmTC_22422.dir/build.make CMakeFiles/cmTC_22422.dir/build
+make[1]: Entering directory '/home/xyligansereja/fotogrammetry_itmo/PhotogrammetryTasks2025/opencv-4.5.1/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_22422.dir/src.cxx.o
+/usr/bin/c++   -O2 -g -DNDEBUG -std=c++11 -fPIE    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations  -Wmissing-prototypes -o CMakeFiles/cmTC_22422.dir/src.cxx.o -c /home/xyligansereja/fotogrammetry_itmo/PhotogrammetryTasks2025/opencv-4.5.1/build/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: warning: command-line option ‘-Wmissing-prototypes’ is valid for C/ObjC but not for C++
+/home/xyligansereja/fotogrammetry_itmo/PhotogrammetryTasks2025/opencv-4.5.1/build/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring ‘#pragma  ’ [-Wunknown-pragmas]
+    1 | #pragma
+Linking CXX executable cmTC_22422
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_22422.dir/link.txt --verbose=1
+/usr/bin/c++ -O2 -g -DNDEBUG CMakeFiles/cmTC_22422.dir/src.cxx.o -o cmTC_22422
+make[1]: Leaving directory '/home/xyligansereja/fotogrammetry_itmo/PhotogrammetryTasks2025/opencv-4.5.1/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C\+\+'
+    Output line: 'cc1plus: warning: command-line option ‘-Wstrict-prototypes’ is valid for C/ObjC but not for C++'
+Compilation failed:
+    source file: '/home/xyligansereja/fotogrammetry_itmo/PhotogrammetryTasks2025/opencv-4.5.1/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations  -Wstrict-prototypes'
+===== BUILD LOG =====
+Change Dir: '/home/xyligansereja/fotogrammetry_itmo/PhotogrammetryTasks2025/opencv-4.5.1/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_05c42/fast
+/usr/bin/make  -f CMakeFiles/cmTC_05c42.dir/build.make CMakeFiles/cmTC_05c42.dir/build
+make[1]: Entering directory '/home/xyligansereja/fotogrammetry_itmo/PhotogrammetryTasks2025/opencv-4.5.1/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_05c42.dir/src.cxx.o
+/usr/bin/c++   -O2 -g -DNDEBUG -std=c++11 -fPIE    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations  -Wstrict-prototypes -o CMakeFiles/cmTC_05c42.dir/src.cxx.o -c /home/xyligansereja/fotogrammetry_itmo/PhotogrammetryTasks2025/opencv-4.5.1/build/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: warning: command-line option ‘-Wstrict-prototypes’ is valid for C/ObjC but not for C++
+/home/xyligansereja/fotogrammetry_itmo/PhotogrammetryTasks2025/opencv-4.5.1/build/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring ‘#pragma  ’ [-Wunknown-pragmas]
+    1 | #pragma
+Linking CXX executable cmTC_05c42
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_05c42.dir/link.txt --verbose=1
+/usr/bin/c++ -O2 -g -DNDEBUG CMakeFiles/cmTC_05c42.dir/src.cxx.o -o cmTC_05c42
+make[1]: Leaving directory '/home/xyligansereja/fotogrammetry_itmo/PhotogrammetryTasks2025/opencv-4.5.1/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command-line option ‘-Wsign-promo’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/home/xyligansereja/fotogrammetry_itmo/PhotogrammetryTasks2025/opencv-4.5.1/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow  -Wsign-promo'
+===== BUILD LOG =====
+Change Dir: '/home/xyligansereja/fotogrammetry_itmo/PhotogrammetryTasks2025/opencv-4.5.1/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_43b86/fast
+/usr/bin/make  -f CMakeFiles/cmTC_43b86.dir/build.make CMakeFiles/cmTC_43b86.dir/build
+make[1]: Entering directory '/home/xyligansereja/fotogrammetry_itmo/PhotogrammetryTasks2025/opencv-4.5.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_43b86.dir/src.c.o
+/usr/bin/cc   -O2 -g -DNDEBUG -fPIE    -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow  -Wsign-promo -o CMakeFiles/cmTC_43b86.dir/src.c.o -c /home/xyligansereja/fotogrammetry_itmo/PhotogrammetryTasks2025/opencv-4.5.1/build/CMakeFiles/CMakeTmp/src.c
+cc1: warning: command-line option ‘-Wsign-promo’ is valid for C++/ObjC++ but not for C
+/home/xyligansereja/fotogrammetry_itmo/PhotogrammetryTasks2025/opencv-4.5.1/build/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring ‘#pragma  ’ [-Wunknown-pragmas]
+    1 | #pragma
+Linking C executable cmTC_43b86
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_43b86.dir/link.txt --verbose=1
+/usr/bin/cc -O2 -g -DNDEBUG CMakeFiles/cmTC_43b86.dir/src.c.o -o cmTC_43b86
+make[1]: Leaving directory '/home/xyligansereja/fotogrammetry_itmo/PhotogrammetryTasks2025/opencv-4.5.1/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command-line option ‘-Wsuggest-override’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/home/xyligansereja/fotogrammetry_itmo/PhotogrammetryTasks2025/opencv-4.5.1/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized  -Wsuggest-override'
+===== BUILD LOG =====
+Change Dir: '/home/xyligansereja/fotogrammetry_itmo/PhotogrammetryTasks2025/opencv-4.5.1/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_675c9/fast
+/usr/bin/make  -f CMakeFiles/cmTC_675c9.dir/build.make CMakeFiles/cmTC_675c9.dir/build
+make[1]: Entering directory '/home/xyligansereja/fotogrammetry_itmo/PhotogrammetryTasks2025/opencv-4.5.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_675c9.dir/src.c.o
+/usr/bin/cc   -O2 -g -DNDEBUG -fPIE    -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized  -Wsuggest-override -o CMakeFiles/cmTC_675c9.dir/src.c.o -c /home/xyligansereja/fotogrammetry_itmo/PhotogrammetryTasks2025/opencv-4.5.1/build/CMakeFiles/CMakeTmp/src.c
+cc1: warning: command-line option ‘-Wsuggest-override’ is valid for C++/ObjC++ but not for C
+/home/xyligansereja/fotogrammetry_itmo/PhotogrammetryTasks2025/opencv-4.5.1/build/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring ‘#pragma  ’ [-Wunknown-pragmas]
+    1 | #pragma
+Linking C executable cmTC_675c9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_675c9.dir/link.txt --verbose=1
+/usr/bin/cc -O2 -g -DNDEBUG CMakeFiles/cmTC_675c9.dir/src.c.o -o cmTC_675c9
+make[1]: Leaving directory '/home/xyligansereja/fotogrammetry_itmo/PhotogrammetryTasks2025/opencv-4.5.1/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command-line option ‘-Wno-delete-non-virtual-dtor’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/home/xyligansereja/fotogrammetry_itmo/PhotogrammetryTasks2025/opencv-4.5.1/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized  -Wno-delete-non-virtual-dtor'
+===== BUILD LOG =====
+Change Dir: '/home/xyligansereja/fotogrammetry_itmo/PhotogrammetryTasks2025/opencv-4.5.1/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_0bc65/fast
+/usr/bin/make  -f CMakeFiles/cmTC_0bc65.dir/build.make CMakeFiles/cmTC_0bc65.dir/build
+make[1]: Entering directory '/home/xyligansereja/fotogrammetry_itmo/PhotogrammetryTasks2025/opencv-4.5.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0bc65.dir/src.c.o
+/usr/bin/cc   -O2 -g -DNDEBUG -fPIE    -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized  -Wno-delete-non-virtual-dtor -o CMakeFiles/cmTC_0bc65.dir/src.c.o -c /home/xyligansereja/fotogrammetry_itmo/PhotogrammetryTasks2025/opencv-4.5.1/build/CMakeFiles/CMakeTmp/src.c
+cc1: warning: command-line option ‘-Wno-delete-non-virtual-dtor’ is valid for C++/ObjC++ but not for C
+/home/xyligansereja/fotogrammetry_itmo/PhotogrammetryTasks2025/opencv-4.5.1/build/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring ‘#pragma  ’ [-Wunknown-pragmas]
+    1 | #pragma
+Linking C executable cmTC_0bc65
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0bc65.dir/link.txt --verbose=1
+/usr/bin/cc -O2 -g -DNDEBUG CMakeFiles/cmTC_0bc65.dir/src.c.o -o cmTC_0bc65
+make[1]: Leaving directory '/home/xyligansereja/fotogrammetry_itmo/PhotogrammetryTasks2025/opencv-4.5.1/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: note: unrecognized command-line option ‘-Wno-unnamed-type-template-args’ may have been intended to silence earlier diagnostics'
+Compilation failed:
+    source file: '/home/xyligansereja/fotogrammetry_itmo/PhotogrammetryTasks2025/opencv-4.5.1/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor  -Wno-unnamed-type-template-args'
+===== BUILD LOG =====
+Change Dir: '/home/xyligansereja/fotogrammetry_itmo/PhotogrammetryTasks2025/opencv-4.5.1/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_a625a/fast
+/usr/bin/make  -f CMakeFiles/cmTC_a625a.dir/build.make CMakeFiles/cmTC_a625a.dir/build
+make[1]: Entering directory '/home/xyligansereja/fotogrammetry_itmo/PhotogrammetryTasks2025/opencv-4.5.1/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a625a.dir/src.cxx.o
+/usr/bin/c++   -O2 -g -DNDEBUG -std=c++11 -fPIE    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor  -Wno-unnamed-type-template-args -o CMakeFiles/cmTC_a625a.dir/src.cxx.o -c /home/xyligansereja/fotogrammetry_itmo/PhotogrammetryTasks2025/opencv-4.5.1/build/CMakeFiles/CMakeTmp/src.cxx
+/home/xyligansereja/fotogrammetry_itmo/PhotogrammetryTasks2025/opencv-4.5.1/build/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring ‘#pragma  ’ [-Wunknown-pragmas]
+    1 | #pragma
+cc1plus: note: unrecognized command-line option ‘-Wno-unnamed-type-template-args’ may have been intended to silence earlier diagnostics
+Linking CXX executable cmTC_a625a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a625a.dir/link.txt --verbose=1
+/usr/bin/c++ -O2 -g -DNDEBUG CMakeFiles/cmTC_a625a.dir/src.cxx.o -o cmTC_a625a
+make[1]: Leaving directory '/home/xyligansereja/fotogrammetry_itmo/PhotogrammetryTasks2025/opencv-4.5.1/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1: note: unrecognized command-line option ‘-Wno-unnamed-type-template-args’ may have been intended to silence earlier diagnostics'
+Compilation failed:
+    source file: '/home/xyligansereja/fotogrammetry_itmo/PhotogrammetryTasks2025/opencv-4.5.1/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized  -Wno-unnamed-type-template-args'
+===== BUILD LOG =====
+Change Dir: '/home/xyligansereja/fotogrammetry_itmo/PhotogrammetryTasks2025/opencv-4.5.1/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_471b3/fast
+/usr/bin/make  -f CMakeFiles/cmTC_471b3.dir/build.make CMakeFiles/cmTC_471b3.dir/build
+make[1]: Entering directory '/home/xyligansereja/fotogrammetry_itmo/PhotogrammetryTasks2025/opencv-4.5.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_471b3.dir/src.c.o
+/usr/bin/cc   -O2 -g -DNDEBUG -fPIE    -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized  -Wno-unnamed-type-template-args -o CMakeFiles/cmTC_471b3.dir/src.c.o -c /home/xyligansereja/fotogrammetry_itmo/PhotogrammetryTasks2025/opencv-4.5.1/build/CMakeFiles/CMakeTmp/src.c
+/home/xyligansereja/fotogrammetry_itmo/PhotogrammetryTasks2025/opencv-4.5.1/build/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring ‘#pragma  ’ [-Wunknown-pragmas]
+    1 | #pragma
+cc1: note: unrecognized command-line option ‘-Wno-unnamed-type-template-args’ may have been intended to silence earlier diagnostics
+Linking C executable cmTC_471b3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_471b3.dir/link.txt --verbose=1
+/usr/bin/cc -O2 -g -DNDEBUG CMakeFiles/cmTC_471b3.dir/src.c.o -o cmTC_471b3
+make[1]: Leaving directory '/home/xyligansereja/fotogrammetry_itmo/PhotogrammetryTasks2025/opencv-4.5.1/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command-line option ‘-fvisibility-inlines-hidden’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/home/xyligansereja/fotogrammetry_itmo/PhotogrammetryTasks2025/opencv-4.5.1/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -fvisibility-inlines-hidden'
+===== BUILD LOG =====
+Change Dir: '/home/xyligansereja/fotogrammetry_itmo/PhotogrammetryTasks2025/opencv-4.5.1/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_2fb07/fast
+/usr/bin/make  -f CMakeFiles/cmTC_2fb07.dir/build.make CMakeFiles/cmTC_2fb07.dir/build
+make[1]: Entering directory '/home/xyligansereja/fotogrammetry_itmo/PhotogrammetryTasks2025/opencv-4.5.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2fb07.dir/src.c.o
+/usr/bin/cc   -O2 -g -DNDEBUG -fPIE    -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -fvisibility-inlines-hidden -o CMakeFiles/cmTC_2fb07.dir/src.c.o -c /home/xyligansereja/fotogrammetry_itmo/PhotogrammetryTasks2025/opencv-4.5.1/build/CMakeFiles/CMakeTmp/src.c
+cc1: warning: command-line option ‘-fvisibility-inlines-hidden’ is valid for C++/ObjC++ but not for C
+/home/xyligansereja/fotogrammetry_itmo/PhotogrammetryTasks2025/opencv-4.5.1/build/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring ‘#pragma  ’ [-Wunknown-pragmas]
+    1 | #pragma
+Linking C executable cmTC_2fb07
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2fb07.dir/link.txt --verbose=1
+/usr/bin/cc -O2 -g -DNDEBUG CMakeFiles/cmTC_2fb07.dir/src.c.o -o cmTC_2fb07
+make[1]: Leaving directory '/home/xyligansereja/fotogrammetry_itmo/PhotogrammetryTasks2025/opencv-4.5.1/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: note: unrecognized command-line option ‘-Wno-inconsistent-missing-override’ may have been intended to silence earlier diagnostics'
+Compilation failed:
+    source file: '/home/xyligansereja/fotogrammetry_itmo/PhotogrammetryTasks2025/opencv-4.5.1/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-inconsistent-missing-override'
+===== BUILD LOG =====
+Change Dir: '/home/xyligansereja/fotogrammetry_itmo/PhotogrammetryTasks2025/opencv-4.5.1/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_e5688/fast
+/usr/bin/make  -f CMakeFiles/cmTC_e5688.dir/build.make CMakeFiles/cmTC_e5688.dir/build
+make[1]: Entering directory '/home/xyligansereja/fotogrammetry_itmo/PhotogrammetryTasks2025/opencv-4.5.1/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e5688.dir/src.cxx.o
+/usr/bin/c++   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wsign-promo -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-unused -Wno-sign-compare -Wno-undef -Wno-missing-declarations -Wno-uninitialized -Wno-switch -Wno-parentheses -Wno-array-bounds -Wno-extra -Wno-deprecated-declarations -Wno-misleading-indentation -Wno-deprecated -Wno-suggest-override  -O2 -g -DNDEBUG -std=c++11 -fPIE    -Wno-inconsistent-missing-override -o CMakeFiles/cmTC_e5688.dir/src.cxx.o -c /home/xyligansereja/fotogrammetry_itmo/PhotogrammetryTasks2025/opencv-4.5.1/build/CMakeFiles/CMakeTmp/src.cxx
+/home/xyligansereja/fotogrammetry_itmo/PhotogrammetryTasks2025/opencv-4.5.1/build/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring ‘#pragma  ’ [-Wunknown-pragmas]
+    1 | #pragma
+cc1plus: note: unrecognized command-line option ‘-Wno-inconsistent-missing-override’ may have been intended to silence earlier diagnostics
+Linking CXX executable cmTC_e5688
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e5688.dir/link.txt --verbose=1
+/usr/bin/c++    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wsign-promo -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-unused -Wno-sign-compare -Wno-undef -Wno-missing-declarations -Wno-uninitialized -Wno-switch -Wno-parentheses -Wno-array-bounds -Wno-extra -Wno-deprecated-declarations -Wno-misleading-indentation -Wno-deprecated -Wno-suggest-override  -O2 -g -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_e5688.dir/src.cxx.o -o cmTC_e5688
+make[1]: Leaving directory '/home/xyligansereja/fotogrammetry_itmo/PhotogrammetryTasks2025/opencv-4.5.1/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C\+\+'
+    Output line: 'cc1plus: warning: command-line option ‘-Wno-missing-prototypes’ is valid for C/ObjC but not for C++'
+Compilation failed:
+    source file: '/home/xyligansereja/fotogrammetry_itmo/PhotogrammetryTasks2025/opencv-4.5.1/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-missing-prototypes'
+===== BUILD LOG =====
+Change Dir: '/home/xyligansereja/fotogrammetry_itmo/PhotogrammetryTasks2025/opencv-4.5.1/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_00e3d/fast
+/usr/bin/make  -f CMakeFiles/cmTC_00e3d.dir/build.make CMakeFiles/cmTC_00e3d.dir/build
+make[1]: Entering directory '/home/xyligansereja/fotogrammetry_itmo/PhotogrammetryTasks2025/opencv-4.5.1/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_00e3d.dir/src.cxx.o
+/usr/bin/c++   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wsign-promo -Wno-delete-non-virtual-dtor -Wno-comment -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-unused -Wno-sign-compare -Wno-undef -Wno-missing-declarations -Wno-uninitialized -Wno-switch -Wno-parentheses -Wno-array-bounds -Wno-extra -Wno-deprecated-declarations -Wno-misleading-indentation -Wno-deprecated -Wno-suggest-override -Wno-implicit-fallthrough -Wno-tautological-compare  -O2 -g -DNDEBUG -std=c++11 -fPIE    -Wno-missing-prototypes -o CMakeFiles/cmTC_00e3d.dir/src.cxx.o -c /home/xyligansereja/fotogrammetry_itmo/PhotogrammetryTasks2025/opencv-4.5.1/build/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: warning: command-line option ‘-Wno-missing-prototypes’ is valid for C/ObjC but not for C++
+/home/xyligansereja/fotogrammetry_itmo/PhotogrammetryTasks2025/opencv-4.5.1/build/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring ‘#pragma  ’ [-Wunknown-pragmas]
+    1 | #pragma
+Linking CXX executable cmTC_00e3d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_00e3d.dir/link.txt --verbose=1
+/usr/bin/c++    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wsign-promo -Wno-delete-non-virtual-dtor -Wno-comment -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-unused -Wno-sign-compare -Wno-undef -Wno-missing-declarations -Wno-uninitialized -Wno-switch -Wno-parentheses -Wno-array-bounds -Wno-extra -Wno-deprecated-declarations -Wno-misleading-indentation -Wno-deprecated -Wno-suggest-override -Wno-implicit-fallthrough -Wno-tautological-compare  -O2 -g -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_00e3d.dir/src.cxx.o -o cmTC_00e3d
+make[1]: Leaving directory '/home/xyligansereja/fotogrammetry_itmo/PhotogrammetryTasks2025/opencv-4.5.1/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: note: unrecognized command-line option ‘-Wno-implicit-const-int-float-conversion’ may have been intended to silence earlier diagnostics'
+Compilation failed:
+    source file: '/home/xyligansereja/fotogrammetry_itmo/PhotogrammetryTasks2025/opencv-4.5.1/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-implicit-const-int-float-conversion'
+===== BUILD LOG =====
+Change Dir: '/home/xyligansereja/fotogrammetry_itmo/PhotogrammetryTasks2025/opencv-4.5.1/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_3eb3c/fast
+/usr/bin/make  -f CMakeFiles/cmTC_3eb3c.dir/build.make CMakeFiles/cmTC_3eb3c.dir/build
+make[1]: Entering directory '/home/xyligansereja/fotogrammetry_itmo/PhotogrammetryTasks2025/opencv-4.5.1/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3eb3c.dir/src.cxx.o
+/usr/bin/c++   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wsign-promo -Wno-delete-non-virtual-dtor -Wno-comment -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-unused -Wno-sign-compare -Wno-undef -Wno-missing-declarations -Wno-uninitialized -Wno-switch -Wno-parentheses -Wno-array-bounds -Wno-extra -Wno-deprecated-declarations -Wno-misleading-indentation -Wno-deprecated -Wno-suggest-override -Wno-implicit-fallthrough -Wno-tautological-compare -Wno-reorder -Wno-unused-result  -O2 -g -DNDEBUG -std=c++11 -fPIE    -Wno-implicit-const-int-float-conversion -o CMakeFiles/cmTC_3eb3c.dir/src.cxx.o -c /home/xyligansereja/fotogrammetry_itmo/PhotogrammetryTasks2025/opencv-4.5.1/build/CMakeFiles/CMakeTmp/src.cxx
+/home/xyligansereja/fotogrammetry_itmo/PhotogrammetryTasks2025/opencv-4.5.1/build/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring ‘#pragma  ’ [-Wunknown-pragmas]
+    1 | #pragma
+cc1plus: note: unrecognized command-line option ‘-Wno-implicit-const-int-float-conversion’ may have been intended to silence earlier diagnostics
+Linking CXX executable cmTC_3eb3c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3eb3c.dir/link.txt --verbose=1
+/usr/bin/c++    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wsign-promo -Wno-delete-non-virtual-dtor -Wno-comment -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-unused -Wno-sign-compare -Wno-undef -Wno-missing-declarations -Wno-uninitialized -Wno-switch -Wno-parentheses -Wno-array-bounds -Wno-extra -Wno-deprecated-declarations -Wno-misleading-indentation -Wno-deprecated -Wno-suggest-override -Wno-implicit-fallthrough -Wno-tautological-compare -Wno-reorder -Wno-unused-result  -O2 -g -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_3eb3c.dir/src.cxx.o -o cmTC_3eb3c
+make[1]: Leaving directory '/home/xyligansereja/fotogrammetry_itmo/PhotogrammetryTasks2025/opencv-4.5.1/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: note: unrecognized command-line option ‘-Wno-tautological-undefined-compare’ may have been intended to silence earlier diagnostics'
+Compilation failed:
+    source file: '/home/xyligansereja/fotogrammetry_itmo/PhotogrammetryTasks2025/opencv-4.5.1/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-tautological-undefined-compare'
+===== BUILD LOG =====
+Change Dir: '/home/xyligansereja/fotogrammetry_itmo/PhotogrammetryTasks2025/opencv-4.5.1/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_63415/fast
+/usr/bin/make  -f CMakeFiles/cmTC_63415.dir/build.make CMakeFiles/cmTC_63415.dir/build
+make[1]: Entering directory '/home/xyligansereja/fotogrammetry_itmo/PhotogrammetryTasks2025/opencv-4.5.1/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_63415.dir/src.cxx.o
+/usr/bin/c++   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef  -O2 -g -DNDEBUG -std=c++11 -fPIE    -Wno-tautological-undefined-compare -o CMakeFiles/cmTC_63415.dir/src.cxx.o -c /home/xyligansereja/fotogrammetry_itmo/PhotogrammetryTasks2025/opencv-4.5.1/build/CMakeFiles/CMakeTmp/src.cxx
+/home/xyligansereja/fotogrammetry_itmo/PhotogrammetryTasks2025/opencv-4.5.1/build/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring ‘#pragma  ’ [-Wunknown-pragmas]
+    1 | #pragma
+cc1plus: note: unrecognized command-line option ‘-Wno-tautological-undefined-compare’ may have been intended to silence earlier diagnostics
+Linking CXX executable cmTC_63415
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_63415.dir/link.txt --verbose=1
+/usr/bin/c++    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef  -O2 -g -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_63415.dir/src.cxx.o -o cmTC_63415
+make[1]: Leaving directory '/home/xyligansereja/fotogrammetry_itmo/PhotogrammetryTasks2025/opencv-4.5.1/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: note: unrecognized command-line option ‘-Wno-shorten-64-to-32’ may have been intended to silence earlier diagnostics'
+Compilation failed:
+    source file: '/home/xyligansereja/fotogrammetry_itmo/PhotogrammetryTasks2025/opencv-4.5.1/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-shorten-64-to-32'
+===== BUILD LOG =====
+Change Dir: '/home/xyligansereja/fotogrammetry_itmo/PhotogrammetryTasks2025/opencv-4.5.1/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_e7f03/fast
+/usr/bin/make  -f CMakeFiles/cmTC_e7f03.dir/build.make CMakeFiles/cmTC_e7f03.dir/build
+make[1]: Entering directory '/home/xyligansereja/fotogrammetry_itmo/PhotogrammetryTasks2025/opencv-4.5.1/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e7f03.dir/src.cxx.o
+/usr/bin/c++   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable  -O2 -g -DNDEBUG -std=c++11 -fPIE    -Wno-shorten-64-to-32 -o CMakeFiles/cmTC_e7f03.dir/src.cxx.o -c /home/xyligansereja/fotogrammetry_itmo/PhotogrammetryTasks2025/opencv-4.5.1/build/CMakeFiles/CMakeTmp/src.cxx
+/home/xyligansereja/fotogrammetry_itmo/PhotogrammetryTasks2025/opencv-4.5.1/build/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring ‘#pragma  ’ [-Wunknown-pragmas]
+    1 | #pragma
+cc1plus: note: unrecognized command-line option ‘-Wno-shorten-64-to-32’ may have been intended to silence earlier diagnostics
+Linking CXX executable cmTC_e7f03
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e7f03.dir/link.txt --verbose=1
+/usr/bin/c++    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable  -O2 -g -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_e7f03.dir/src.cxx.o -o cmTC_e7f03
+make[1]: Leaving directory '/home/xyligansereja/fotogrammetry_itmo/PhotogrammetryTasks2025/opencv-4.5.1/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: note: unrecognized command-line option ‘-Wno-enum-compare-switch’ may have been intended to silence earlier diagnostics'
+Compilation failed:
+    source file: '/home/xyligansereja/fotogrammetry_itmo/PhotogrammetryTasks2025/opencv-4.5.1/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-enum-compare-switch'
+===== BUILD LOG =====
+Change Dir: '/home/xyligansereja/fotogrammetry_itmo/PhotogrammetryTasks2025/opencv-4.5.1/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_a3070/fast
+/usr/bin/make  -f CMakeFiles/cmTC_a3070.dir/build.make CMakeFiles/cmTC_a3070.dir/build
+make[1]: Entering directory '/home/xyligansereja/fotogrammetry_itmo/PhotogrammetryTasks2025/opencv-4.5.1/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a3070.dir/src.cxx.o
+/usr/bin/c++   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable -Wno-invalid-offsetof  -O2 -g -DNDEBUG -std=c++11 -fPIE    -Wno-enum-compare-switch -o CMakeFiles/cmTC_a3070.dir/src.cxx.o -c /home/xyligansereja/fotogrammetry_itmo/PhotogrammetryTasks2025/opencv-4.5.1/build/CMakeFiles/CMakeTmp/src.cxx
+/home/xyligansereja/fotogrammetry_itmo/PhotogrammetryTasks2025/opencv-4.5.1/build/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring ‘#pragma  ’ [-Wunknown-pragmas]
+    1 | #pragma
+cc1plus: note: unrecognized command-line option ‘-Wno-enum-compare-switch’ may have been intended to silence earlier diagnostics
+Linking CXX executable cmTC_a3070
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a3070.dir/link.txt --verbose=1
+/usr/bin/c++    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Winit-self -Wpointer-arith -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable -Wno-invalid-offsetof  -O2 -g -DNDEBUG   -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_a3070.dir/src.cxx.o -o cmTC_a3070
+make[1]: Leaving directory '/home/xyligansereja/fotogrammetry_itmo/PhotogrammetryTasks2025/opencv-4.5.1/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+

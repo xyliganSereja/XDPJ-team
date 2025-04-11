@@ -1,0 +1,42 @@
+file(REMOVE_RECURSE
+  "/home/xyligansereja/fotogrammetry_itmo/xyliganSerejaSolution/src/phg/matching/cl/bruteforce_matcher_cl.h"
+  "CMakeFiles/Photogrammetry.dir/src/phg/core/calibration.cpp.o"
+  "CMakeFiles/Photogrammetry.dir/src/phg/core/calibration.cpp.o.d"
+  "CMakeFiles/Photogrammetry.dir/src/phg/core/camera.cpp.o"
+  "CMakeFiles/Photogrammetry.dir/src/phg/core/camera.cpp.o.d"
+  "CMakeFiles/Photogrammetry.dir/src/phg/matching/bruteforce_matcher.cpp.o"
+  "CMakeFiles/Photogrammetry.dir/src/phg/matching/bruteforce_matcher.cpp.o.d"
+  "CMakeFiles/Photogrammetry.dir/src/phg/matching/bruteforce_matcher_gpu.cpp.o"
+  "CMakeFiles/Photogrammetry.dir/src/phg/matching/bruteforce_matcher_gpu.cpp.o.d"
+  "CMakeFiles/Photogrammetry.dir/src/phg/matching/descriptor_matcher.cpp.o"
+  "CMakeFiles/Photogrammetry.dir/src/phg/matching/descriptor_matcher.cpp.o.d"
+  "CMakeFiles/Photogrammetry.dir/src/phg/matching/flann_matcher.cpp.o"
+  "CMakeFiles/Photogrammetry.dir/src/phg/matching/flann_matcher.cpp.o.d"
+  "CMakeFiles/Photogrammetry.dir/src/phg/matching/gms_matcher.cpp.o"
+  "CMakeFiles/Photogrammetry.dir/src/phg/matching/gms_matcher.cpp.o.d"
+  "CMakeFiles/Photogrammetry.dir/src/phg/sfm/ematrix.cpp.o"
+  "CMakeFiles/Photogrammetry.dir/src/phg/sfm/ematrix.cpp.o.d"
+  "CMakeFiles/Photogrammetry.dir/src/phg/sfm/fmatrix.cpp.o"
+  "CMakeFiles/Photogrammetry.dir/src/phg/sfm/fmatrix.cpp.o.d"
+  "CMakeFiles/Photogrammetry.dir/src/phg/sfm/homography.cpp.o"
+  "CMakeFiles/Photogrammetry.dir/src/phg/sfm/homography.cpp.o.d"
+  "CMakeFiles/Photogrammetry.dir/src/phg/sfm/panorama_stitcher.cpp.o"
+  "CMakeFiles/Photogrammetry.dir/src/phg/sfm/panorama_stitcher.cpp.o.d"
+  "CMakeFiles/Photogrammetry.dir/src/phg/sfm/resection.cpp.o"
+  "CMakeFiles/Photogrammetry.dir/src/phg/sfm/resection.cpp.o.d"
+  "CMakeFiles/Photogrammetry.dir/src/phg/sfm/sfm_utils.cpp.o"
+  "CMakeFiles/Photogrammetry.dir/src/phg/sfm/sfm_utils.cpp.o.d"
+  "CMakeFiles/Photogrammetry.dir/src/phg/sfm/triangulation.cpp.o"
+  "CMakeFiles/Photogrammetry.dir/src/phg/sfm/triangulation.cpp.o.d"
+  "CMakeFiles/Photogrammetry.dir/src/phg/sift/sift.cpp.o"
+  "CMakeFiles/Photogrammetry.dir/src/phg/sift/sift.cpp.o.d"
+  "CMakeFiles/Photogrammetry.dir/src/phg/utils/point_cloud_export.cpp.o"
+  "CMakeFiles/Photogrammetry.dir/src/phg/utils/point_cloud_export.cpp.o.d"
+  "libPhotogrammetry.a"
+  "libPhotogrammetry.pdb"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/Photogrammetry.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()
